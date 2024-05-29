@@ -3,6 +3,7 @@
 
 # Kaynakların Bağlantıları
 Energy_consumption_by_source_and_country --> https://ourworldindata.org/grapher/energy-consumption-by-source-and-country?country=OWID_WRL~TUR
+
 GDP by Country 1999-2022 --> https://www.kaggle.com/datasets/alejopaullier/-gdp-by-country-1999-2022
 
 # Özet
