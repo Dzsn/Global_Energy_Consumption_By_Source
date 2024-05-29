@@ -326,3 +326,14 @@ Fosil Kaynak Oranı") +
 
 ```
 Endonezya, Hindistan gibi yüksek büyüme rakamlarına sahip, yeni sanayileşen, orta-düşük gelirli ülkeler bahsi edilen fosil kaynaklardan en zor vazgeçen ülkedir. Diğer ülkelerin aksine Endonezya’da doğalgaz ve petrol oranı düşerken kömürün payı artmıştır. Fakat genel eğilim petrol ve kömürden uzaklaşıp bunu büyük oranda doğalgaz ve ufak miktarda yeşil enerji ile ikame etmektir
+
+# Dikkat Edilmesi Gerekenler
+Dünyada GSYİH büyümesi enerji tüketiminden daha fazla olan hatta enerji tüketimi net olarak azalırken büyüyen ülkeler vardır. Fakat bu ülkeler genelde gelişmiş ülkeler genel olarak Avrupa Birliği ülkeleridir. Bu veriye daha detaylı baktığımızda biraz daha karamsar bir sonuç çıkmaktadır. Örneğin Avrupa Birliği’ndeki ülkelerin büyümesi inanılmaz düşüktür ve finansallaşmışlardır. Hizmet sektörü yoğundur ve demir çelik benzeri yoğun enerji isteyen dolayısı ile fosil yakıtların yüksek oranda kullanıldığı sektörler ülke dışına (genel olarak orta-düşük gelirli ülkelere) kaydırılmıştır. Örneğin Venezuela gibi ülkelerin 2012- 2022 yılları arasında enerji tüketimi %40 civarı düşmüşse de, ülke bu süreçte olarak ekonomik olarak çökmüş ve GSYİH’si dörtte birine inmiştir. Bu nedenle ekonomik büyüme - enerji tüketimi ilişkisi hakkında daha detaylı bir analize ihtiyaç vardır.
+
+Enerji üretiminde birincil enerji kaynağı olarak kullanılan doğalgaz harici fosil yakıtlara ilgi düşmekte ise de çoğu ülke boşluğu doğalgaz ile doldurmaktadır. Her ne kadar yeşil enerjiler kadar
+tercih edilir olmasa da diğer fosil alternatiflere göre daha çevre dostudur. Yeşil enerjilerin özellikle sağladıkları enerji ile ilk kurulum bedeli arasındaki açıklık nedeniyle düşük gelirli ülkelerde daha az tercih edilmektedir. Ayrıca her ülke bazı yeşil enerjiye coğrafi nedenlerle elverişli olmayabilir. Bunlar arasında düşük güneş ışığı alımı, rüzgarın azlığı, yağışların yeterli olmaması gibi
+nedenler sayılabilir.
+
+# Referanslar
+[1] https://www.researchgate.net/figure/Divergence-in-the-global-trends-of-OECD-and-non-OECD- countries-occurs-in-a-Primary_fig3_229139027 
+
