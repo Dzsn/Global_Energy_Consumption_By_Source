@@ -335,5 +335,5 @@ tercih edilir olmasa da diğer fosil alternatiflere göre daha çevre dostudur. 
 nedenler sayılabilir.
 
 # Referanslar
-[1] https://www.researchgate.net/figure/Divergence-in-the-global-trends-of-OECD-and-non-OECD- countries-occurs-in-a-Primary_fig3_229139027 
+[1] https://www.researchgate.net/figure/Divergence-in-the-global-trends-of-OECD-and-non-OECD-countries-occurs-in-a-Primary_fig3_229139027 
 
