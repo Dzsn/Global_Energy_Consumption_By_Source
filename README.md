@@ -103,6 +103,8 @@ ggplot(dünya_verisi) +
 Petrol tüketimi yüzdelik olarak zirvesini 1973 petrol krizinden hemen önce görmüş daha sonrasında azalma trendine girmiştir. Uzun vadede kömür oransal olarak neredeyse sabitken, son 10 yılda düşmektedir. Doğalgaz artma eğilimi gösterirken hidrolik enerji neredeyse tamamen sabittir. Nükleer enerji 2000'ler başında zirvesini görüp düşme trendine girmiştir. Son yıllarda ise güneş ve rüzgar ciddi şekilde artmıştır
 
 # Tüketim Artıyor
+![Yıllara_Göre_Enerji_Tüketimi](https://github.com/Dzsn/Global_Energy_Consumption_By_Source/assets/83463640/9fb7c10e-1ecc-488b-8b2b-ac0f36ff286e)
+
 ```
 # Dünyadaki Enerji Tüketimdeki Sayısal Değişimler
 ggplot(dünya_verisi) +
@@ -138,6 +140,8 @@ ggplot(dünya_verisi) +
 Her ne kadar karbon nötr hedefine ilerlemek için çevreye daha az zarar veren kaynakların oranı artsa da genel enerjitüketimi de küresel krizler dışında artmaktadır 1973 petrol krizi, 80'li yılların ilk yarısı, 2008 ekonomik krizi ve 2020 pandemisi gibi ekonomiye ciddi zarar verici dönemler haricinde enerji tüketimi yükseliş trendinde
 
 # OECD’nin Payı Azalıyor!
+![Yıllara_Göre_OECD_Non_OECD_Enerji_Tüketim_Oranları](https://github.com/Dzsn/Global_Energy_Consumption_By_Source/assets/83463640/26ba8a4d-d885-49fb-825e-855b0a35d13e)
+
 ```
 # İlgili Yıllardaki Veriler Filtrelenir
 seçilmiş_yıllar <- c(1970, 1980, 1990, 2000, 2010, 2020)
@@ -180,6 +184,8 @@ ggplot(veri_uzun, aes(x = factor(Yıl), y = Percentage, fill = Varlık)) +
 OECD ülkeleri genel olarak 2.Dünya Savaşı sonrasında ABD’den yardım alan günümüzde genel olarak ABD ve müttefikleri olarak yorumlanabilecek ülkelerdir.Yaklaşık 50 yıl önce bu ülkeler dünyadaki enerji tüketiminin ve ekonomik payın ezici çoğunluğunu oluştururken giderek azalmış ve 2010'lu yıllarda OECD dışındaki ülkeler tarafından iki kategoridede geçilmiştir.[1]
 
 # Yeşil Enerjiler İlk Sıralarda!
+![2012_2022_Arası_Enerji_Kaynaklarının_Değişimi](https://github.com/Dzsn/Global_Energy_Consumption_By_Source/assets/83463640/bae87401-5357-48fc-8222-3567c676392f)
+
 ```
 # Tüm Ülkelerdeki Toplam Tüketimindeki Büyümeyi Bulmak Yerine Dünyadaki Enerji Kaynalarının Büyümelerini Ölçebileceğimiz Yeni Veri Seti hazırlanır
 data_2012 <- veri %>% filter(Yıl == 2012)
@@ -237,6 +243,8 @@ ggplot(dünya_büyüme_sıralı, aes(x = reorder(variable, +value), y = value)) 
 ve Hidrolik birbirine yakın çıkmıştır, yani hidrolik enerji oransal olarak neredeyse sabittir. Petrol, nükleer ve kömür aynı şekilde toplam tüketim oranından aşağı kalmış olup kömür neredeyse artmamıştır.
 
 # Az Tüketmek Çok Büyümek ?
+![GSYİH_Değişimi_Toplam_Enerji_Tüketim_Değişimi_Arasındaki_Korelasyon](https://github.com/Dzsn/Global_Energy_Consumption_By_Source/assets/83463640/e2868a59-e79f-433e-b7cf-03b7498d4b92)
+
 ```
 # GDP'nin Olduğu CSV Dosyası Çağrılır
 gdp_veri <- read.csv("GDP by Country 1999-2022.csv", check.names = FALSE)
@@ -301,6 +309,8 @@ ggplot(combined_data, aes(x = `GSYİH Değişimi`, y = `Toplam Tüketimdeki Yüz
 Korelasyon katsayısına bakıldığında ortaseviyede korelasyon olduğunu görürürüz. Verilere bakıldığında ekonomik büyüme enerji tüketiminin de büyümesini garanti etmese de geneldeekonomik küçülme enerji tüketiminde de küçülmeyi işaret etmektedir.
 
 # Doğalgaz Harici Defosilizasyon
+![Yıllara_Göre_Doğalgaz_Harici_Fosil_Kaynak_Oranının_Değişimi](https://github.com/Dzsn/Global_Energy_Consumption_By_Source/assets/83463640/9332c04c-7af6-472e-b3d4-be46b5afcdee)
+
 ```
 veri[5:22] <- veri[5:22] %>% replace(is.na(.), 0)
 
