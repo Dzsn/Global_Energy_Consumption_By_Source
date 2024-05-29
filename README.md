@@ -243,7 +243,7 @@ ggplot(dünya_büyüme_sıralı, aes(x = reorder(variable, +value), y = value)) 
 ve Hidrolik birbirine yakın çıkmıştır, yani hidrolik enerji oransal olarak neredeyse sabittir. Petrol, nükleer ve kömür aynı şekilde toplam tüketim oranından aşağı kalmış olup kömür neredeyse artmamıştır.
 
 # Az Tüketmek Çok Büyümek ?
-![GSYİH_Değişimi_Toplam_Enerji_Tüketim_Değişimi_Arasındaki_Korelasyon](https://github.com/Dzsn/Global_Energy_Consumption_By_Source/assets/83463640/e2868a59-e79f-433e-b7cf-03b7498d4b92)
+![GSYİH_Değişimi_Toplam_Enerji_Tüketim_Değişimi_Arasındaki_Korelasyon](https://github.com/Dzsn/Global_Energy_Consumption_By_Source/assets/83463640/2f423327-64da-4eb5-b0d4-0f8ed0109111)
 
 ```
 # GDP'nin Olduğu CSV Dosyası Çağrılır
