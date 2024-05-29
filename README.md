@@ -33,6 +33,8 @@ veri <- Energy_consumption_by_source_and_country
 colnames(veri) <- c("Varlık","Kod","Yıl","Diğer Yenilenebilirler","Biyoyakıt","Güneş","Rüzgar","Hidrolik","Nükleer","Doğalgaz","Kömür","Petrol")
 ```
 # Petrolün ve Kömürün Payı
+![Yıllara_Göre_Enerji_Tüketimindeki_Yüzdelik_Pay](https://github.com/Dzsn/Global_Energy_Consumption_By_Source/assets/83463640/e093ee0c-8a98-474b-8be6-5a6d8def3d29)
+
 ```
 # Enerji Verisi Yüklenir 
 Energy_consumption_by_source_and_country <- read.csv("Energy_consumption_by_source_and_country.csv",check.names=FALSE)   
