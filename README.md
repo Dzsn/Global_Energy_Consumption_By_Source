@@ -16,7 +16,8 @@ Enerji, modern toplumların temel taşıdır. Sanayi devrimi öncesinde insanlar
 Sunumda geçmişten günümüze birincil enerji kaynakları yani herhangi bir enerji dönüşümden geçmemiş enerji kaynaklarının dönüşümü incelenmiştir. Çıkan sonuçlara özellikle son 10 yılda dünyada gelişmiş ülkelerde petrol ve kömür ikilisinin yerini doğalgaz ve yeşil enerjiler almaktadır. Şu anda yeşil enerjilerin payları çok küçük olsa da son 10 yılda diğer enerji kaynaklarına kıyasla inanılmaz bir artış göstermişlerdir. Eğer bu artış hızı en az bu seviyede kalırsa uzun vadede fosil yakıtlardan çok yeşil enerji kaynaklarının birincil enerji kaynaklarının çoğunu oluşturacağını söylemek yanlış olmaz.
 
 # Gerekli Paketlerin İndirilmesi
-```install.packages(c("ggplot2","dplyr","reshape2","scales","tidyr","scales"))     #Gerekli Paketler yüklenir  
+```
+install.packages(c("ggplot2","dplyr","reshape2","scales","tidyr","scales"))     #Gerekli Paketler yüklenir  
 library(ggplot2)                  #Veri Görselleştirmede Kullanılır
 library(dplyr)                    #Veri Manipülasyonunda Kullanılır
 library(reshape2)                 #Veri Seti Manipülasyonunda Kullanılır
